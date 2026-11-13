@@ -1,25 +1,25 @@
 class Agentcam < Formula
   desc "A dashcam for your coding agents: replay and search every Claude Code and Codex session on your machine"
   homepage "https://github.com/chauhanswapnil/agentcam"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.1.0/agentcam-aarch64-apple-darwin.tar.xz"
-      sha256 "17bcdbe9bca3947851c6c2a1127a96653ef2998679730963f259d70920e9d09a"
+      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.2.0/agentcam-aarch64-apple-darwin.tar.xz"
+      sha256 "f4c43ec259a0f2ed5e80e1975918b8de3aaa2ddd39d5abdadab816e36633e87d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.1.0/agentcam-x86_64-apple-darwin.tar.xz"
-      sha256 "46b779617bc9f8c677509e8d05231741d0a7ee856e24ea87bbb921c85c4516a2"
+      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.2.0/agentcam-x86_64-apple-darwin.tar.xz"
+      sha256 "7296deafec80d5b2a1d6a23b88ff8d27b5bc1a242e466b0c7ae9c3c0762fdb52"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.1.0/agentcam-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "076c749c22d05e9c52894a278125fb98bcde965ab925fc9be717995d3cd8fb76"
+      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.2.0/agentcam-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "41b66f48ae9c5c3424afa0b9e68a343e7bb6c3663ebf37b0b582e0de87614927"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.1.0/agentcam-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1fd65401e7d2bac9beef6b29c9b4f8473a7ed8a0235a4fa29bfec243c668816d"
+      url "https://github.com/chauhanswapnil/agentcam/releases/download/v0.2.0/agentcam-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "63798dfe9f471e416efcb38cfbddf8286ca29e69550b1de017482b3438557db5"
     end
   end
   license "Apache-2.0"
